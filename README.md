@@ -4,11 +4,11 @@ sudo cp rpigpio/rtscts.dtbo /boot/overlays/
 
 sudo vi /boot/config.txt 
 
-// rtscts device tree
 dtoverlay=rtscts  
+// rtscts device tree
 
-// uart0 txd rxd 
 disable_uart=0 
+// uart0 txd rxd 
 
 
 
