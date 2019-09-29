@@ -15,5 +15,7 @@ disable_uart=0
 sudo rpigpio/gpio // HDMI distributor
 
 //IMAGE viewer
+
 sudo apt-get install fbi
+
 sudo fbi -a -T 1 defense_img.png
