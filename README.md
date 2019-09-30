@@ -4,12 +4,12 @@ sudo cp rpigpio/rtscts.dtbo /boot/overlays/
 
 sudo vi /boot/config.txt 
 
-dtoverlay=rtscts  
 // rtscts device tree
-
-disable_uart=0 
 // uart0 txd rxd 
 
+dtoverlay=rtscts  
+
+disable_uart=0 
 
 
 sudo rpigpio/gpio // HDMI distributor
